@@ -1,0 +1,9 @@
+services:
+  proje1:
+    build:
+      context: C:\Users\Ebru\source\repos\proje1\proje1
+      dockerfile: Dockerfile
+    image: proje1
+    ports:
+    - target: 80
+version: '3.4'
